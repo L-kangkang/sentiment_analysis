@@ -39,6 +39,7 @@ def format_print(results):
     for result in results:
         aspect, opinions, sentiment = result["aspect"], result[
             "opinions"], result["sentiment_polarity"]
+        # print(result)
         print(
             f"aspect: {aspect}, opinions: {opinions}, sentiment_polarity: {sentiment}"
         )
